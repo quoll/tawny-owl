@@ -28,7 +28,7 @@
 
   :dependencies [
                  ;; owl API
-                 [net.sourceforge.owlapi/owlapi-distribution "4.5.26"]
+                 [net.sourceforge.owlapi/owlapi-distribution "5.5.1"]
 
                  ;; clojure
                  [org.clojure/clojure "1.11.1"]
