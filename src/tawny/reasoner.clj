@@ -37,20 +37,13 @@
     OWLReasoner OWLReasonerFactory
     NodeSet)
    (org.semanticweb.elk.owlapi ElkReasonerFactory)
-   (org.apache.log4j
-    Level
-    Logger)
    (org.semanticweb.owlapi.reasoner SimpleConfiguration)
    (org.semanticweb.HermiT Reasoner)))
 
 (defn- reasoner-factory-1 [reasoner-keyword]
   (reasoner-keyword
    {:elk
-    (do
-      ;; ELK is noisy, so shut it up
-      (-> (Logger/getLogger "org.semanticweb.elk")
-          (.setLevel Level/ERROR));
-      (ElkReasonerFactory.))
+    (ElkReasonerFactory.)
     :hermit (org.semanticweb.HermiT.Reasoner$ReasonerFactory.)
     :jfact (uk.ac.manchester.cs.jfact.JFactFactory.)
     :nil nil}))
