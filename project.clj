@@ -35,8 +35,8 @@
                  [net.sourceforge.owlapi/owlapi-distribution "5.5.1"]
 
                  ;; clojure
-                 [org.clojure/clojure "1.11.1"]
-                 [org.clojure/core.logic "1.0.1"]
+                 [org.clojure/clojure "1.12.4"]
+                 [org.clojure/core.logic "1.1.1"]
 
                  ;; reasoners
                  [org.semanticweb.elk/elk-owlapi "0.6.0"]
