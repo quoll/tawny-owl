@@ -39,7 +39,7 @@
                  [org.clojure/core.logic "1.1.1"]
 
                  ;; reasoners
-                 [org.semanticweb.elk/elk-owlapi "0.6.0"]
+                 [io.github.liveontologies/elk-owlapi "0.6.0"]
                  [net.sourceforge.owlapi/org.semanticweb.hermit "1.4.5.519"]
                  [net.sourceforge.owlapi/jfact "5.0.3"
                   :exclusions [net.sourceforge.owlapi/owlapi-apibinding]]
